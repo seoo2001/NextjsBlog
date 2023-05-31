@@ -16,9 +16,10 @@ module.exports = {
     'plugin:prettier/recommended',
     'next',
     'next/core-web-vitals',
+    'prettier',
   ],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': off,
     'react/react-in-jsx-scope': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
