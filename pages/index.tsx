@@ -7,6 +7,7 @@ import { sortedBlogPost, allCoreContent } from 'pliny/utils/contentlayer'
 import { InferGetStaticPropsType } from 'next'
 import { allBlogs } from 'contentlayer/generated'
 import type { Blog } from 'contentlayer/generated'
+import { Analytics } from '@vercel/analytics/react'
 
 const MAX_DISPLAY = 5
 
@@ -93,6 +94,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           </Link>
         </div>
       )}
+      <Analytics />
     </>
   )
 }
