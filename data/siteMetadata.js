@@ -4,8 +4,8 @@
 const siteMetadata = {
   title: 'Personal Blog',
   author: 'DongJoon Seo',
-  headerTitle: '@dohan\'s DevBlog',
-  description: 'by dohan',
+  headerTitle: '@seoo2001\'s DevBlog',
+  description: 'study record',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://nextjs-blog-seoo2001.vercel.app',
